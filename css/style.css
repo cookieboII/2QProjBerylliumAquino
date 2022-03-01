@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Fredoka:wght@300&family=PT+Serif&family=Rubik:wght@700&display=swap');
+
+body {
+background-color: #483434;
+overflow-x: hidden
+}
+
+#header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #362222;
+	position: fixed;
+	width: 100%;
+	height: 11vh;
+	padding-top: 0vh;
+  padding-left: 0.5vw;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+#header img {
+	margin: 10px;
+	height: 50px;
+	width: 50px
+}
+
+.ul {
+  list-style-type: none;
+  background-color: #362222;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 4;
+}
+
+#li {
+  float: right;
+}
+
+#li a {
+  display: inline-block;
+  color: #EED6C4;
+  text-align: center;
+  padding: 0.5vh 1.5vh;
+  text-decoration: none;
+  font-family: 'Courier Prime', monospace;
+  font-size: 3vh;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#li a:hover {
+  background-color: #854442;
+  transform: scale(1.1);
+}
+
+.active {
+  background-color: #ba8936;
+}
+  
+.dropbtn {
+  display: inline-block;
+  color: #EED6C4;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #be9b7b;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #473333;
+  min-width: 50vw;
+  box-shadow: 0px 8px 16px 0px #3c2f2f;
+  z-index: 4;
+  margin-right: 100px;
+}
+
+.dropdown-content a {
+  color: #3c2f2f;
+  padding: 0px 2vh;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.dropdown-content a:hover {
+  background-color: #be9b7b;
+  transform: scale(1.1);
+  
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+p {
+  clear: right; 
+  text-align: justify; 
+  margin-top: 0em; 
+  margin-bottom: 0.6em; 
+  margin-right: 0.6em; 
+  font-size: 4vh;"
+}
+
+* {
+  color: #FFF3E4;
+  font-family: 'Fredoka', sans-serif;
+}
+
+#def 
+ {
+   width: 100%;
+   height: auto; 
+   padding: 1vh;
+   margin-top: 11vh;
+   margin-left: -0.5vw;
+}
+
+hr {
+  display:block; 
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  color: #be9b7b;
+  background-color: #be9b7b;
+}
+
+h1 {
+  text-align: center; 
+  font-size: 10vh;
+  font-family: 'Rubik', sans-serif;
+}
+
+.web:hover {
+  color: #ba8936;
+}
+
+#char {
+  font-size: 4vh;
+}
+
+#sources {
+  font-size: 3vh;
+}
